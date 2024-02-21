@@ -501,6 +501,7 @@ ul.btn li:last-child {
      display: inline-block;
      transition: ease-in all 0.5s;
      margin-right: 10px;
+     border-radius: 25px;
 }
 
 .text-bg a:hover {
@@ -514,7 +515,8 @@ ul.btn li:last-child {
 
 .titlepage {
      text-align: center;
-     padding-bottom: 60px;
+     padding-bottom: 3.5%;
+     margin-top: 5%;
 }
 
 .titlepage h2 {
@@ -664,7 +666,7 @@ ul.btn li:last-child {
 /** wedo  section **/
 
 .wedo {
-     padding-top: 70px;
+     padding-top: 2.5%;
      background-color: black;
      /* background-image: linear-gradient(to bottom, #d1d1d1, #000000); */
 }
