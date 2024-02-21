@@ -5868,7 +5868,6 @@ button.close {
 
 .carousel-control-prev,
 .carousel-control-next {
-  position: absolute;
   top: 0;
   bottom: 0;
   display: -ms-flexbox;

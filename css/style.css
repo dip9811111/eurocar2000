@@ -477,7 +477,7 @@ ul.btn li:last-child {
      align-items: center;
      justify-content: center;
      color: #000;
-     margin-top: 5%;
+     /* margin-top: 5%; */
 }
 
 #banner1 .carousel-control-next i:focus,
@@ -524,8 +524,9 @@ ul.btn li:last-child {
      font-weight: bold;
      padding: 0;
      border-bottom: #00ff66 solid 1px;
-     max-width: 300px;
+     /* max-width: 300px; */
      margin: auto;
+     width: 50vw;
 }
 
 .titlepage h1 {
@@ -573,7 +574,7 @@ ul.btn li:last-child {
 
 .three_box {
      padding: 0 40px;
-     
+     /* margin-bottom: 2.5%; */
      /* margin-top: -5%; */
      padding-top: 5%;
      padding-bottom: 2.5%;
@@ -624,9 +625,9 @@ ul.btn li:last-child {
      padding: 166px 153px 30px 153px;
 }
 
-.about .titlepage h2 {
+/* .about .titlepage h2 {
      max-width: 436px;
-}
+} */
 
 .about .about_img {
      background: url(../images/about.png);
@@ -746,7 +747,7 @@ ul.btn li:last-child {
 /** testimonial section **/
 
 .testimonial {
-     padding: 90px 0px 60px;
+     padding: 20px 0px 20px;
      background: #000000;
      /* background-image: linear-gradient(to bottom, #000000, #d1d1d1); */
  }
@@ -840,7 +841,7 @@ ul.btn li:last-child {
      /* background-image: linear-gradient(to bottom, #d1d1d1, #000000); */
      /* padding-top: 85px; */
      text-align: center;
-     margin-top: 5%;
+     /* margin-top: 5%; */
 }
 
 .footer .titlepage {
@@ -1122,3 +1123,57 @@ iframe {
 #img_logo{
      width: 100%;
 }
+
+.div_control {
+     width: 50%;
+     /* background-color: black; */
+     height: 50px;
+     display: flex;
+     margin-left: 50%;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     align-content: center;
+     justify-content: center;
+     align-items: center;
+}
+
+.change_pos{
+     position: static;
+}
+
+.chi_siamo_div{
+     background-color: white;
+     padding-left: 5%;
+     padding-right: 5%;
+     border-radius: 25px;
+     padding-top: 2.5%;
+     padding-bottom: 2.5%;
+     width: 100%;
+}
+
+.chi_siamo_title{
+     font-weight: bold;
+     font-size: 30px;
+     text-align: center;
+}
+
+.reviews{
+     display: flex;
+     width: 80%;
+     margin-left: 10%;
+     align-items: center;
+}
+
+.footer_inner_title {
+     display: inline-block;
+     /* background-color: yellow; */
+     /* width: 20%; */
+     /* border: none !important; */
+     width: auto !important;
+     border-bottom: 1px solid;
+}
+
+#contact{
+     margin-top: 2.5%;
+}
+
