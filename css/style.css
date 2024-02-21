@@ -423,9 +423,11 @@ ul.btn li:last-child {
 .text-bg p {
      font-size: 20px;
      line-height: 28px;
-     font-weight: 500;
+     font-weight: bolder;
      padding-bottom: 20px;
      display: block;
+     color: #ffffff;
+
 }
 
 .text-bg figure img {
@@ -1127,11 +1129,11 @@ iframe {
 }
 
 .div_control {
-     width: 50%;
+     width: 100%;
      /* background-color: black; */
      height: 50px;
      display: flex;
-     margin-left: 50%;
+     /* margin-left: 50%; */
      flex-direction: row;
      flex-wrap: nowrap;
      align-content: center;
@@ -1179,3 +1181,13 @@ iframe {
      margin-top: 2.5%;
 }
 
+.col-md-6 {
+     max-width: 100% !important;
+     flex: auto !important;
+}
+
+.smaller{
+     max-width: fit-content !important;
+     flex: none !important;
+     width: 50%;
+}
