@@ -35,18 +35,20 @@ document.addEventListener("DOMContentLoaded", function() {
         //   document.querySelector('.popup_text').innerHTML = 
         //   document.querySelector('.popup_button').innerText = code;
         //   document.querySelector('.popup_text.data').innerHTML = `<b>${discount}</b><br>${duration}`;
+          if (title.trim() !== '') {
+            setTimeout(function() {
+              // Display the popup
+              document.getElementById('discount-popup').style.display = 'block';
+              document.getElementById('div_transparency').style.display = 'block';
+            }, 2500); // Adjust the time delay (in milliseconds) before the popup appears
+          }
         })
         .catch(error => {
           console.error('Error fetching data:', error);
+
         });
     
-    if (title.trim() !== '') {
-      setTimeout(function() {
-        // Display the popup
-        document.getElementById('discount-popup').style.display = 'block';
-        document.getElementById('div_transparency').style.display = 'block';
-      }, 2500); // Adjust the time delay (in milliseconds) before the popup appears
-    }
+    
     
   });
   
