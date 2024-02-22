@@ -75,6 +75,7 @@
    
    .popup_text{
         font-size: 15px;
+        line-height: 15px;
     }
 
    .popup_button{
@@ -158,6 +159,7 @@
    
    .popup_text{
         font-size: 15px;
+        line-height: 15px;
     }
 
    .popup_button{
@@ -292,6 +294,7 @@
    
    .popup_text{
         font-size: 10px;
+        line-height: 15px;
     }
 
    .popup_button{
@@ -301,6 +304,10 @@
 
     .text-bg a {
         margin-top: 2%;
+    }
+
+    #popup_promo, #popup_sconto{
+        line-height: 15px;
     }
 
 }
@@ -477,11 +484,16 @@
    
    .popup_text{
         font-size: 10px;
+        line-height: 15px;
     }
 
    .popup_button{
         font-size: 20px;
         width: 100%;
+    }
+
+    #popup_promo, #popup_sconto{
+        line-height: 15px;
     }
 
 }
