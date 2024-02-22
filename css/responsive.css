@@ -10,6 +10,27 @@
     .text-bg span {
         font-size: 45px;
     }
+
+    .popup {
+        width: 80vw;
+        height: 60vw;
+        max-width: 80%; /* Optional: Add a maximum width for responsiveness */
+        max-height: 80vh; /* Optional: Add a maximum height for responsiveness */
+    }
+
+    .popup_title{
+        font-size: 40px;
+    }
+   
+   .popup_text{
+        font-size: 15px;
+    }
+
+   .popup_button{
+        font-size: 20px;
+        width: 100%;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -40,6 +61,29 @@
     ul.social_icon li a {
         margin: 0px 1px;
     }
+
+    .popup {
+        width: 80vw;
+        height: 60vw;
+        max-width: 80%; /* Optional: Add a maximum width for responsiveness */
+        max-height: 80vh; /* Optional: Add a maximum height for responsiveness */
+    }
+
+    .popup_title{
+        font-size: 40px;
+    }
+   
+   .popup_text{
+        font-size: 15px;
+    }
+
+   .popup_button{
+        font-size: 20px;
+        width: 100%;
+    }
+    .text-bg a {
+        margin-top: 2%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -50,11 +94,12 @@
         min-height: 605px;
     }
     .text-bg h1 {
-        font-size: 49px;
+        font-size: 85px;
         line-height: 65px;
         padding-bottom: 10px;
     }
     .text-bg span {
+        margin-top: 1.2%;
         font-size: 28px;
         line-height: 23px;
     }
@@ -99,11 +144,31 @@
     .banner_main{
         flex-direction: column !important;
     } 
+
+    .popup {
+        width: 80vw;
+        height: 60vw;
+        max-width: 80%; /* Optional: Add a maximum width for responsiveness */
+        max-height: 80vh; /* Optional: Add a maximum height for responsiveness */
+    }
+
+    .popup_title{
+        font-size: 40px;
+    }
+   
+   .popup_text{
+        font-size: 15px;
+    }
+
+   .popup_button{
+        font-size: 20px;
+        width: 100%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     .text-bg h1 {
-        font-size: 70px;
+        font-size: 80px;
         line-height: 40px;
         padding-bottom: 25px;
         margin-top: 50px;
@@ -114,6 +179,7 @@
     }
     .text-bg span {
         font-size: 44px;
+        line-height: 45px;
     }
     .box_text {
         margin-top: 30px;
@@ -213,6 +279,30 @@
         text-transform: uppercase;
     }
 
+    .popup {
+        width: 100vw;
+        height: 60vw;
+        max-width: 90%;
+        max-height: 80vh;
+    }
+
+    .popup_title{
+        font-size: 30px;
+    }
+   
+   .popup_text{
+        font-size: 10px;
+    }
+
+   .popup_button{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .text-bg a {
+        margin-top: 2%;
+    }
+
 }
 
 @media (max-width: 575px) {
@@ -226,7 +316,7 @@
         float: left;
     }
     .text-bg h1 {
-        font-size: 47px;
+        font-size: 55px;
         line-height: 40px;
         padding-bottom: 10px;
     }
@@ -239,7 +329,7 @@
     }
     .text-bg span {
         font-size: 27px;
-        line-height: 52px;
+        line-height: 35px;
     }
     .box_text {
         margin-top: 30px;
@@ -372,6 +462,26 @@
         line-height: 12px;
         font-weight: 600;
         text-transform: uppercase;
+    }
+
+    .popup {
+        width: 100vw;
+        height: 100vw;
+        max-width: 90%;
+        max-height: 100vh;
+    }
+
+    .popup_title{
+        font-size: 30px;
+    }
+   
+   .popup_text{
+        font-size: 10px;
+    }
+
+   .popup_button{
+        font-size: 20px;
+        width: 100%;
     }
 
 }
