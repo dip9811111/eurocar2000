@@ -21,7 +21,7 @@
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- <link rel="icon" href="images/fevicon.png" type="image/gif" /> -->
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
@@ -33,6 +33,7 @@
    </head>
    <!-- body -->
    <body class="main-layout">
+      <script src="js/popup_manager.js"></script>
       <!-- loader  -->
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="#" /></div>
@@ -149,6 +150,32 @@
                      </div>
                   </div>
                </div>
+               <div class="carousel-item">
+                  <div class="container-fluid">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="text_img">
+                                 <figure><img src="images/macchina.jpeg" alt="#"/></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container-fluid">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="text_img">
+                                 <figure><img src="images/panda.png" alt="#"/></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
             <div class="div_control">
                <a class="carousel-control-prev change_pos" href="#banner1" role="button" data-slide="prev">
@@ -161,6 +188,29 @@
          </div>
       </section>
       <!-- end banner -->
+      <!-- popup -->
+      <div id="div_transparency"></div>
+      <div id="discount-popup" class="popup">
+         <img class="cross_popup" src="images/cross.png" alt="#" onclick="closePopup()"/>
+         <!-- <div class="cross_popup_div">
+            <figure></figure>
+         </div> -->
+         <div class="popup-content">
+            <!-- <span class="close-btn" onclick="closePopup()">&times;</span> -->
+            <div class="popup_written">
+               <h2 id="popup_title" class="popup_title"></h2>
+               <p id="popup_promo"  class="popup_text"></b></p>
+               <p  class="popup_text">Al momento del pagamento riferisci al nostro operatore il codice</p>
+               <button id="popup_button"  class="popup_button"></button>
+               <p id="popup_sconto"  class="popup_text"></p>
+               <p id="popup_durata"  class="popup_text data"></p>
+            </div>
+            <div class="popup_img_div">
+               <figure><img class="img_popup" src="images/ruote.jpg" alt="#"/></figure>
+            </div>
+         </div>
+      </div>
+      <!-- end popup -->
       <!-- three_box -->
       <div class="three_box">
          <div class="container">
@@ -190,7 +240,7 @@
                   <div class="box_text">
                      <h3>Meccatronica</h3>
                      <i><img src="images/meccatronica_icon.png" alt="#"/></i>
-                     <p>Problemi all'impianto elettrico? Un nostro professionista sarà pronto a risolverlo nel più breve tempo possibile!</p>
+                     <p>Un nostro esperto sarà pronto ad installare aggiornamenti software per minimizzare i consumi della tua auto!</p>
                   </div>
                </div>
             </div>
